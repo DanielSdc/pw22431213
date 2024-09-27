@@ -1,0 +1,176 @@
+body {
+    font-size: 16px; /* 1em*/
+    max-width: 1078px;
+    min-width: 1078px;
+    margin: 0px auto;
+  }
+  
+  footer {
+    position: relative;
+    background: rgb(68, 101, 177);
+    color: white;
+    margin-top: 40px;
+    height: 160px;
+    padding: 20px;
+  }
+  
+  footer article {
+    width: 32.8%;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+  }
+  
+  footer article input[type="button"] {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+  #twitter {
+    position: absolute;
+    top: -25px;
+    left: 885px;
+  }
+  
+  #facebook {
+    position: absolute;
+    top: -25px;
+    left: 830px;
+  }
+  
+  #personas {
+    position: absolute;
+    top: -70px;
+    left: 950px;
+  }
+  
+  header input {
+    float: right;
+    margin-right: -200px;
+    margin-top: 15px;
+  }
+  
+  header nav {
+    /* text-align: center; */
+    margin-left: 220px;
+  }
+  
+  header nav ul li {
+    border-bottom: 1px solid lightgray;
+    color: lightgray;
+    font-size: 1.8em;
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 2px;
+    /* text-decoration: underline; */
+  }
+  
+  #bgOffer {
+    /* position: static; por defecto */
+    /* static
+    relative
+    z-index */
+    position: relative;
+    top: -406px;
+    left: -35px;
+  }
+  
+  #granthams {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+  
+  #paint {
+    float: right;
+  }
+  
+  #primerSeccion {
+    /* el alto del slide */
+    height: 318px;
+    margin-top: 60px;
+    /* border: 1px solid red; */
+  }
+  
+  #primerSeccion article {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  #secc01art01 {
+    width: 60%;
+    margin-left: 30px;
+  }
+  
+  #secc01art02 {
+    margin-left: 50px;
+    width: 30%;
+  }
+  
+  #secc01art02 ul {
+    list-style: none;
+    margin-left: -40px;
+  }
+  
+  #secc01art02 ul li:before {
+    content: "• ";
+    color: #ff0099;
+  }
+  
+  #segundaSeccion article {
+    text-align: right;
+    margin-right: 165px;
+  }
+  
+  #terceraSeccion article {
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+  }
+  
+  #terceraSeccion article img {
+    vertical-align: middle;
+  }
+  
+  #secc03art04 {
+    margin-top: 40px;
+    /* padding-top: 40px; */
+  }
+  
+  #secc03art04 input {
+    border-radius: 5px;
+    height: 25px;
+  }
+  
+  #secc03art04 input[type="button"] {
+    background: #8bc500;
+    border: 1px solid #8bc500;
+    color: white;
+    width: 60px;
+  }
+  
+  .colorRosa {
+    color: #ff0099;
+  }
+  
+  .colorAzul {
+    color: #4267b3;
+  }
+  
+  .colorVerde {
+    color: #8bc500;
+  }
+  
+  .letraGrande {
+    font-size: 3.5em;
+  }
+  
+  .letraMediana {
+    font-size: 2em;
+  }
+  
+  .nito {
+    font-weight: bold;
+  }
