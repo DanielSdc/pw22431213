@@ -1,0 +1,159 @@
+body {
+    display: grid;
+    font-size: 16px;
+    font-family: sans-serif;
+    max-width: 1280px;
+    min-width: 1280px;
+    margin: 0px auto;
+  }
+  
+  header {
+    grid-column: 1 / 1;
+    grid-row: 1 / 2;
+    display: grid;                                    /*DANIEL SEBASTIAN CASTRO FIGUEROA*/
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px dashed grey;
+    margin-bottom: -10px;
+  }
+  
+  header section nav {
+    margin-top: -20px;
+    grid-column: 1 / 9;
+    grid-row: 2 / 3;
+  }
+  
+  header section nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    margin: 10px 10px;
+  }
+
+  .Toleft {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .Toright{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 20px;
+  }
+  
+  .logo {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    padding: 45px;
+  }
+  
+  .logosDerechos {
+    padding: 10px;
+    grid-column: 2 / 3;
+    grid-row: 1 /2;
+    text-align: right;
+  }
+ 
+  .buy {
+    grid-column: 2/ 3;
+    grid-row: 2 / 3;
+    margin-top: 20px;
+    width: 60px;
+  }
+  
+  .gotoshop {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-left: 80px;
+    margin-top: -50px;
+  }
+
+  .cuerpo {
+    display: grid;
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
+    margin-top: 20px;
+  }
+  
+  .tamtitulo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 4.7em;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 40px;
+    border-bottom: 1px dashed grey;
+  }
+  
+  .letraverde {
+    color: lightgreen;
+  }
+  
+  .speech {
+    margin-left: 40px;
+    margin-top: 50px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  .texto {
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .videos img{
+    margin-top: 50px;
+    width: 300px;
+  }
+  
+
+  .bicicleta {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  
+  #bike {
+    grid-column: 1 / 6;
+    grid-row: 1/ 6;
+  }
+
+  #fiveyears {
+    grid-column: 1 / 2;
+    grid-row: 6 / 6;
+    margin-top: -35px;
+  }
+
+
+  .logos {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    justify-content: left;
+  }
+  .logos img {
+    margin-right: 5px;
+  }
+ 
+  .derecha{
+    margin-left: 150px;
+  }
+  
+  .footerinfo {
+    grid-column: 1 / 5;
+    grid-row: 2 / 5;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    color: gray;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  
+  .nito{
+    font-weight: bold;
+  }
+  

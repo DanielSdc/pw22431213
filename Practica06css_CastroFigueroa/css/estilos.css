@@ -1,0 +1,182 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+.header{
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(1,fr);
+    grid-template-columns: repeat(4,fr);
+    padding: 8px;
+}
+
+.logo{
+    margin-left: 50px;
+    grid-row: 3 / 4;
+    margin-top: -10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.botones{
+    text-align: right;
+    margin-right: 50px;
+    grid-row: 3 / 4;
+}
+
+
+.header img{
+    height: 30px;
+    float: left;
+    margin-top: -8px
+}
+
+.LearnMore{
+    color:  #B9A7FC;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+#submit{
+    padding: 5px 10px;
+    color: white;
+    background: rgb(36, 35, 35);
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#singin{
+    padding: 5px 10px;
+    color: white;
+    background: rgb(83, 83, 199);
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.navbar{
+    background: #e6e6fa;
+    text-align: center;
+    padding: 80px;
+}
+
+.navbar input{
+    height: 30px;
+    width: 350px;
+}
+
+.letratitulo{
+    font-size: 2em;
+}
+
+.main{
+    padding: 50px 10px;
+    display: grid;
+    grid-template-columns: repeat(4, fr);
+    grid-template-rows: repeat(3, fr);
+    width: 800px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.art1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.art2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.art3{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.art4{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.art5{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.art6{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.main img{
+    padding: 20px 10px;
+    width: 40px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.main article{
+    margin-top: 30px;
+}
+
+.footer{
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, fr);
+    font-size: 0.8em;
+    height: 300px;
+}
+
+.foot1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.foot2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.foot3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.foot4{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.foot5{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.foot6{
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.footer article{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+
+.footitulo{
+    font-size: 1.2em;
+}
+
+.footer img{
+    width: 50px;
+    margin-left: -10px;
+    margin-top: -50px;
+}
